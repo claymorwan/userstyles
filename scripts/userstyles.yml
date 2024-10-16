@@ -173,8 +173,8 @@ userstyles:
         > [!NOTE]
         > This theme applies to [AniChart](https://anichart.net/) as well, which is an extension of AniList.
     current-maintainers: [*anubisnekhet]
-  arch-user-repostry:
-    name: Arch user repostry
+  arch-user-repository:
+    name: Arch user repository
     categories: []
     icon: archlinux
     readme:

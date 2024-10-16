@@ -142,6 +142,9 @@ collaborators:
     url: https://github.com/NeonGamerBot-QK
   - &Lichthagel
     url: https://github.com/Lichthagel
+  - &claymorwan
+    name: claymorwan
+    url: https://github.com/claymorwan
 
 userstyles:
   advent-of-code:
@@ -170,6 +173,13 @@ userstyles:
         > [!NOTE]
         > This theme applies to [AniChart](https://anichart.net/) as well, which is an extension of AniList.
     current-maintainers: [*anubisnekhet]
+  arch-user-repostry:
+    name: Arch user repostry
+    categories: []
+    icon: archlinux
+    readme:
+      app-link: "https://aur.archlinux.org/"
+    current-maintainers: [*claymorwan]
   arch-wiki:
     name: Arch Wiki
     categories: [wiki, productivity]
@@ -1009,4 +1019,5 @@ userstyles:
           answer: "It's available in case you have an OLED display. If you have one, you might want to enable this."
     current-maintainers: [*isabelroses, *uncenter]
     past-maintainers: [*elkrien]
+
 # yaml-language-server: $schema=userstyles.schema.json

@@ -175,7 +175,7 @@ userstyles:
     current-maintainers: [*anubisnekhet]
   arch-user-repository:
     name: Arch user repository
-    categories: []
+    categories: [development, search_engine, library]
     icon: archlinux
     readme:
       app-link: "https://aur.archlinux.org/"

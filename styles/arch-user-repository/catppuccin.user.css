@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name Arch user repository Catppuccin
+@name Arch User Repository Catppuccin
 @namespace github.com/catppuccin/userstyles/styles/arch-user-repository
 @homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/arch-user-repository
 @version 0.1.0
 @updateURL https://github.com/catppuccin/userstyles/raw/main/styles/arch-user-repository/catppuccin.user.css
-@supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3A<port-name>
-@description Soothing pastel theme for the Arch user repository
+@supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3Aarch-user-repository
+@description Soothing pastel theme for Arch User Repository
 @author Catppuccin
 @license MIT
 
@@ -117,7 +117,10 @@
 
 
   // Links
-        a { color: @accent-color !important; font-weight: bold !important; text-decoration: none !important; }
+        a {
+            color: @accent-color !important;
+            text-decoration: none !important;
+        }
 
 
   // code

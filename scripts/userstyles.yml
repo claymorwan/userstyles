@@ -1019,5 +1019,4 @@ userstyles:
           answer: "It's available in case you have an OLED display. If you have one, you might want to enable this."
     current-maintainers: [*isabelroses, *uncenter]
     past-maintainers: [*elkrien]
-
 # yaml-language-server: $schema=userstyles.schema.json

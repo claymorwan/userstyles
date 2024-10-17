@@ -186,6 +186,7 @@ userstyles:
     name: Arch User Repository
     categories: [development]
     icon: archlinux
+    color: blue
     readme:
       app-link: "https://aur.archlinux.org/"
     current-maintainers: [*claymorwan]

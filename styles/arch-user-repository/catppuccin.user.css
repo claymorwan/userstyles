@@ -16,7 +16,7 @@
 ==/UserStyle== */
 
 @-moz-document domain('aur.archlinux.org') {
-    */
+
     @media (prefers-color-scheme: light) {
       :root {
         #catppuccin(@lightFlavor, @accentColor);
@@ -185,21 +185,31 @@
 
 
   // pkg list
-        table.results {
-            th {
-                background-color: @surface0
-            }
-            td  {
-                background-color: @surface0
-            }
+    table.results {
+        th {
+            background-color: @surface0
+        }
+        td  {
+            background-color: @surface0
+        }
         }
         th {
             background-color: @surface1
         }
         td  {
-            background-color: @surface1
+            background-color: @surface1;
+        }
+        span.error {
+            color: @red !important
+        }
+        .flagged {
+            color: @red !important
         }
 
+  // pkginfo
+        #pkginfo a.keyword {
+            background-color: @crust !important
+        }
 
   // pkgdetails
         #pkgdetails #actionlist {
@@ -297,3 +307,4 @@
   }
 
   // vim:ft=less
+

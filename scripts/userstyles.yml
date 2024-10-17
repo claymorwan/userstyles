@@ -142,6 +142,8 @@ collaborators:
     url: https://github.com/NeonGamerBot-QK
   - &Lichthagel
     url: https://github.com/Lichthagel
+    - &comfysage
+    url: https://github.com/comfysage
   - &claymorwan
     name: claymorwan
     url: https://github.com/claymorwan

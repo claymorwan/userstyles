@@ -87,9 +87,6 @@
             background-color: @surface1;
             border-color: @accent-color
         }
-        div.content {
-          border-color: @accent-color !important;
-        }
 
 
   // archnavbar
@@ -303,6 +300,7 @@
 
   // commit - diff
         div.content {
+          border-color: @accent-color !important;
           th {
             background-color: @base
           }

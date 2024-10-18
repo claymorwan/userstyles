@@ -87,6 +87,9 @@
             background-color: @surface1;
             border-color: @accent-color
         }
+        div.content {
+          border-color: @accent-color !important;
+        }
 
 
   // archnavbar
@@ -135,14 +138,21 @@
             background-color: @mantle
         }
         pre {
-            background-color: @mantle
+            background-color: @base;
         }
         code {
-            background-color: @mantle;
+            background-color: @base;
             color: @text
         }
+
+        span.hl.num {
+          color: @teal !important;
+        }
+        span.hl.ipl {
+          color: @blue !important;
+        }
         span.hl.opt {
-            color: @text !important
+            color: @yellow !important
         }
         span.hl.kwb {
             color: @accent-color !important
@@ -187,7 +197,10 @@
         }
 
 
-  // pkg list
+  // pkglist
+    table , th, td{
+      border-color: @accent-color
+    }
     table.results {
         th {
             background-color: @surface0
@@ -195,9 +208,11 @@
         td  {
             background-color: @surface0
         }
+
         }
         th {
-            background-color: @surface1
+            background-color: @surface1;
+            color: @text ! important
         }
         td  {
             background-color: @surface1;
@@ -286,14 +301,42 @@
             color: @accent-color !important
         }
 
-  // commit
-        table.diff div.head {
-            color: @mantle !important
+  // commit - diff
+        div.content {
+          th {
+            background-color: @base
+          }
+          td {
+            background-color: @base
+          }
+          tr {
+            border-color: @accent-color !important;
+          }
+        }
+        table.diffstat tr {
+          border-color: @accent-color;
+        }
+        div.head {
+          color: @text !important;
+        }
+        div.hunk {
+          color: @blue !important;
+        }
+        div.del {
+          color: @red !important;
+        }
+        div.add {
+          color: @green !important
         }
 
   // stats
-        table.stats th {
-            background-color: @surface0 !important
+        table.stats {
+            th {
+              background-color: @surface0 !important;
+            }
+            td.sum {
+              color: @red !important
+            }
         }
 
     }
@@ -310,4 +353,3 @@
   }
 
   // vim:ft=less
-

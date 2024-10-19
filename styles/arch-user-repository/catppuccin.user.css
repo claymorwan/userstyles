@@ -119,7 +119,6 @@
   // Links
         a {
             color: @accent-color !important;
-            text-decoration: none !important;
         }
 
 
@@ -157,8 +156,16 @@
          span.hl.kwc {
             color: @accent-color !important
         }
+        span.hl.kwa {
+            color: @flamingo !important
+        }
+        span.hl.kwd {
+            color: @lavender !important
+        }
 
-
+        div.article-content code {
+            background-color: @surface0;
+        }
   // pkgsearch
         #pkgsearch {
             background-color: @accent-color;
@@ -283,7 +290,13 @@
                 color : @accent-color !important
             }
         }
-
+  // log
+        span.age-hours {
+            color: @teal !important
+        }
+        span.age-days {
+            color: @green !important;
+        }
   // tree
         a.ls-blob {
             color: @text !important
@@ -325,6 +338,9 @@
         }
         div.add {
           color: @green !important
+        }
+        table {
+            border-color: @accent-color !important;
         }
 
   // stats

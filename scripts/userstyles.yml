@@ -182,13 +182,13 @@ userstyles:
         > [!NOTE]
         > This theme applies to [AniChart](https://anichart.net/) as well, which is an extension of AniList.
     current-maintainers: [*anubisnekhet]
-  arch-user-repository:
-    name: Arch User Repository
-    categories: [development]
+  arch-linux:
+    name: Arch Linux
+    categories: [system, wiki, development]
     icon: archlinux
     color: blue
     readme:
-      app-link: "https://aur.archlinux.org/"
+      app-link: "https://archlinux.org/"
     current-maintainers: [*claymorwan]
   arch-wiki:
     name: Arch Wiki

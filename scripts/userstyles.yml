@@ -190,7 +190,7 @@ userstyles:
     readme:
       app-link: "https://archlinux.org/"
     current-maintainers: [*claymorwan]
-  arch-wiki:
+    past-maintainers: [*genshibe]
   boringproxy:
     name: boringproxy
     categories: [development]

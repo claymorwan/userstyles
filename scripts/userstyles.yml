@@ -191,15 +191,6 @@ userstyles:
       app-link: "https://archlinux.org/"
     current-maintainers: [*claymorwan]
   arch-wiki:
-    name: Arch Wiki
-    categories: [wiki, productivity]
-    icon: archlinux
-    color: blue
-    readme:
-      app-link: "https://wiki.archlinux.org/"
-      usage: "Make sure to use the default **Light** theme"
-    current-maintainers: []
-    past-maintainers: [*genshibe]
   boringproxy:
     name: boringproxy
     categories: [development]

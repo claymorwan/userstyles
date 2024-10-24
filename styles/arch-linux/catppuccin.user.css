@@ -687,10 +687,15 @@
   // pkgdetails
         #pkgdetails #actionlist {
             background-color: @surface0;
-            color: @text
+            color: @text;
+            border-color: @accent-color;
         }
         #pkgdetails #actionlist input.button.text-button {
             color: @accent-color
+        }
+        #elsewhere {
+          background-color: @surface0 !important;
+          border-color: @accent-color !important;
         }
 
 
@@ -950,10 +955,33 @@
         }
 
         .postleft {
-          background-color: @surface0 !important;
+          background-color: @surface1 !important;
         }
+        .postfootleft {
+          background-color: @surface1 !important;
+        }
+
         .postright {
           background-color: @base !important;
+        }
+
+        .quotebox {
+          background-color: @surface2 !important;
+          border-color: @accent-color !important;
+          cite {
+            color: @accent-color;
+          }
+        }
+
+        span.conr {
+          color: @text;
+        }
+
+        #quickpost {
+          border-color: @accent-color !important;
+          h2 {
+            background-color: @surface0;
+          }
         }
 
         // User profile
